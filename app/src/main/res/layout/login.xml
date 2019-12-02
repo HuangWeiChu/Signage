@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/widget32"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/text01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="請輸入 Server IP:" />
+
+    <EditText
+        android:id="@+id/ip"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="192.168.137.1"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="連線" />
+
+</LinearLayout>
